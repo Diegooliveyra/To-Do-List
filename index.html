@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="instructions">
+        <img src="./img/Logo.png" alt="Logo To do list" />
+        <h2>Como ultilizar:</h2>
+        <ul>
+          <li>Digite sua tarefa, clique no botão + para adiciona-la.</li>
+          <li>
+            <strong>Clique uma vez</strong> sobre a tarefa para marca-la como
+            concluida.
+          </li>
+          <li><strong>Clique duas vezes</strong> na tarefa para a deletar.</li>
+        </ul>
+      </div>
+      <div class="to-do">
+        <form class="todo-form">
+          <input type="text" name="name" autofocus>
+          <button type="submit">+</button>
+        </form>
+        <ol class="todo-list"></ol>
+      </div>
+    </div>
+  </body>
+</html>
