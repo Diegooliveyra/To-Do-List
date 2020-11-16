@@ -177,7 +177,7 @@ ol {
 
 @media (max-width: 720px) {
   .container {
-    padding: 40px 10px;
+    padding: 50px 10px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
