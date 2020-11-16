@@ -99,10 +99,11 @@ ol {
   margin-left: 10px;
 }
 
-.wrapper label {
+.wrapper span {
   display: inline-block;
   padding: 20px 20px;
   flex: 2;
+  outline: none;
 }
 
 .check {
@@ -148,6 +149,8 @@ ol {
   left: 20px;
   border: 2px solid #00bd00;
 }
+
+
 .to-do-list li:nth-child(odd) {
   background-color: rgb(240, 240, 240);
 }
@@ -166,6 +169,10 @@ ol {
   outline: none;
 }
 
+.to-do-list [type="checkbox"]:checked ~ span {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
 .remove-task {
   color: var(--dark-color);
   font-size: 18px;
