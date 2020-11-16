@@ -8,13 +8,14 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="stylesheet" href="./css/style.css" />
     <title>To Do List</title>
   </head>
   <body>
     <div class="container">
       <div class="instructions">
-        <img src="./img/Logo.png" alt="Logo To do list" />
+        <img src="./img/Logo.svg" alt="Logo To do list" />
         <h2>Como ultilizar:</h2>
         <ul>
           <li>Digite sua tarefa, clique no botão + para adiciona-la.</li>
@@ -26,11 +27,19 @@
         </ul>
       </div>
       <div class="to-do">
-        <form class="todo-form">
+        <form class="to-do-form">
           <input type="text" name="name" autofocus>
           <button type="submit">+</button>
         </form>
-        <ol class="todo-list"></ol>
+        <ol class="to-do-list">
+          <li>
+            <div class="wrapper">
+              <input type="checkbox" name=""  class="check">
+              <label for="">Estudar Javascript</label>
+              <button class="remove-task"><i class="far fa-trash-alt"></i></button>
+            </div>
+          </li>
+        </ol>
       </div>
     </div>
   </body>
