@@ -14,7 +14,7 @@
 <ul>
     <li>Html</li>
     <li>Css</li>
-    <li>Javascrip</li>
+    <li>Javascript</li>
 </ul>
 
 <h3>ℹ️ Como usar</h3>
