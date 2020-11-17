@@ -1,4 +1,4 @@
-<p align='center'><img width='200' src="./.git/Logo.png/"></p>
+<p align='center'><img width='200' src="./.github/Logo.png/"></p>
 <h1 align='center'>To Do List - Javascript Vanilla</h1>
 <p align='center'>
 <img src="https://img.shields.io/github/repo-size/Diegooliveyra/To-Do-List">
