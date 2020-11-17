@@ -29,7 +29,6 @@ todoForm.addEventListener("submit", function (e) {
   input.focus();
 });
 
-
 // remove task
 todoList.addEventListener("click", (e) => {
   if (
@@ -54,14 +53,15 @@ function removeTask(taskId) {
   countTasks();
 }
 
-
 // create task
 function createTask(task) {
   const taskEl = document.createElement("li");
   taskEl.setAttribute("id", task.id);
   const taskElMarkup = `
   <div class="wrapper">
-    <input type="checkbox" id="${task.name}-${task.id}" name="tasks"  ${task.isCompleted ? "checked" : ""} class="check" >
+    <input type="checkbox" id="${task.name}-${task.id}" name="tasks"  ${
+    task.isCompleted ? "checked" : ""
+  } class="check" >
     <label for="${task.name}-${task.id}"></label>
     <span ${!task.isCompleted ? "contenteditable" : ""}>${task.name}</span>
     <button class="remove-task" title="Remove ${
