@@ -7,7 +7,7 @@
 </p>
 
 <h3>🔖 Descrição</h3>
-<p>Uma lista simples de tarefas a fazer em um javascript puro vanilla.<p>
+<p>Uma lista simples de tarefas a fazer em javascript puro vanilla.<p>
 
 
 <h3>🚀 Tecnologias</h3>
