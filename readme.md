@@ -12,7 +12,7 @@
 
 <h3>🚀 Tecnologias</h3>
 <ul>
-    <li>Htm</li>
+    <li>Html</li>
     <li>Css</li>
     <li>Javascrip</li>
 </ul>
